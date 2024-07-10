@@ -36,6 +36,7 @@ publisher = {Optica Publishing Group}
 
 ## Pre-requites
 1. Download the LSMI dataset(The origin dataset is large which may taken you more than one day to process, I released the **tiff** format in this link)
+Then, put it into fold 'LSMI_data'
 2. Download the pre-trained models and put them into the 'pretrained_models' fold, [link](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EsxLu3DqGsFFjrs7zF-BDzABYtUQV_ajENej8hFuf_zIpg?e=t3E0RP)
 3. Read my paper(if you need more details):[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-15-26708&id=553174)
 
