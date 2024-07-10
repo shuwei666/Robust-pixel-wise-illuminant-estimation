@@ -34,10 +34,11 @@ publisher = {Optica Publishing Group}
 
 ## Pre-requites
 - Download the LSMI dataset(The origin dataset is large which may taken you more than one day to process, I released the **tiff** format in this link)
-- Download the pre-trained models and put them into the 'pretrained_models' fold, link 
+- Download the pre-trained models and put them into the 'pretrained_models' fold, link
+- Read my paper:[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-15-26708&id=553174)
 
 ## Code
-The Net architecture is the same as *[LIMIU](https://github.com/DY112/LSMI-dataset) 
+The Net architecture is the same as [LIMIU](https://github.com/DY112/LSMI-dataset) 
 
 Our key contribution is using L1 loss for fine-tuning when training and the `post_processing.py` when testing, as the physical-constrained post-processing, detailed in the paper.
 
@@ -48,6 +49,3 @@ Check the path in `setting.py` and run `train.py`
 Check the path in `test.py` and run `test.py`. Default is using post-processing in **USING_POST_PROCESSING=True**, you can change it to **False** for comparison, and you will see an amazing improvement!
 
 
----
-
-Please do not hesitate to contact me if you have any questions, enjoy!
