@@ -1,4 +1,4 @@
-# Robust pixel-wise illuminant estimation
+# Robust pixel-wise illuminant estimation algorithm for images with a low bit-depth
 Shuwei Yue and *[Minchen Wei](https://www.polyucolorlab.com/)
 
 *Color, Imaging, and Metaverse Research Center, The Hong Kong Polytechnic University.*
