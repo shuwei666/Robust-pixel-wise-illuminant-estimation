@@ -17,8 +17,8 @@ USING_POST_PROCESSING = True
 if USING_POST_PROCESSING:
     robust_post_processing = RobustPhysicalConstrainedPostProcessing()
 # ----------------------------------------------------------------------
-MODEL_PATH = f"./pretrained_models/ours_sony"
-TEST_DATA_PATH = '/home/tuotuo/Documents/code/sony_512'
+MODEL_PATH = f"pretrained_models/ours_sony"
+TEST_DATA_PATH = 'LSMI_dataset/sony_512'
 
 
 def get_args_test():

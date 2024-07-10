@@ -7,7 +7,7 @@ LEARNING_RATE = 5e-5
 RELOAD_CHECKPOINT = True
 
 PATH_TO_PTH_CHECKPOINT = "pretrained_models/LSMIU_galaxy"
-DATA_PATH = '/media/shuwei/PS2000/1-multi-AWB/dataset/galaxy_512/'
+DATA_PATH = 'LSMI_data/galaxy_512/'
 
 BS = 2
 
