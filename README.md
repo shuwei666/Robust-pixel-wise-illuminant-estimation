@@ -1,5 +1,5 @@
 # Robust pixel-wise illuminant estimation algorithm for images with a low bit-depth
-[Shuwei Yue](shuweiyue.com) and *[Minchen Wei](https://www.polyucolorlab.com/)
+[Shuwei Yue](https://shuweiyue.com/) and *[Minchen Wei](https://www.polyucolorlab.com/)
 
 *Color, Imaging, and Metaverse Research Center, The Hong Kong Polytechnic University.*
 
