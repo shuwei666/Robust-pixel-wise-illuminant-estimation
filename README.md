@@ -34,11 +34,17 @@ publisher = {Optica Publishing Group}
 
 ```
 
+## Paper link
+
+- [link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-15-26708&id=553174)
+
 ## Pre-requites
-1. Download the LSMI dataset(The origin dataset is large which may taken you more than one day to process, I released the **tiff** format in this link)
-Then, put it into fold 'LSMI_data'.
-2. Download the pre-trained models and put them into the 'pretrained_models' fold, [link](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EsxLu3DqGsFFjrs7zF-BDzABYtUQV_ajENej8hFuf_zIpg?e=t3E0RP).
-3. Read my paper(if you need more details):[link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-15-26708&id=553174)
+
+- Download the LSMI dataset(The origin dataset is large which may taken you more than one day to process, I released the [processed tiff](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EuX8LjutGdJJlimKlIKXNsEBXbEx2SfNNCe5kRB6eaaANA?e=34MGAx).(~30GB) Then, put it into fold 'LSMI_data'. 
+
+- Download the [pre-trained models](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EsxLu3DqGsFFjrs7zF-BDzABYtUQV_ajENej8hFuf_zIpg?e=Qzi2sx)(~1GB) and put them into the 'pretrained_models' fold
+
+
 
 ## Code
 The Net architecture is the same as [LIMIU](https://github.com/DY112/LSMI-dataset) 
@@ -51,4 +57,6 @@ Check the path in `setting.py` and run `train.py`
 ### Test
 Check the path in `test.py` and run `test.py`. Default is using post-processing in **USING_POST_PROCESSING=True**, you can change it to **False** for comparison, and you will see an amazing improvement!
 
+---
 
+*Don't hesistate submit an issue if you have any questions!
