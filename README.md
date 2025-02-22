@@ -41,9 +41,7 @@ publisher = {Optica Publishing Group}
 ## Pre-requites
 
 - Download the LSMI dataset(The origin dataset is large which may taken you more than one day to process, I released the **processed tiff**.(~30GB) Then, put it into fold 'LSMI_data'.
-  - [Sony](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EuX8LjutGdJJlimKlIKXNsEBXbEx2SfNNCe5kRB6eaaANA?e=DOTrLq)
-  - [Galaxy](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EgoEPvV5vE9MqXMZWFnMhn8Bh5nuNg7huMaBVXPN04OPug?e=KiwQfX)
-  - [Nikon](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21064184r_connect_polyu_hk/EgENkJn5-elCpFM4UuKiVTQBJsLXIUSqdIgQ4L9Kx5p1jA?e=zmrqZX) 
+  - [Sony/Galaxy/Nikon](https://pan.quark.cn/s/6531b2d307a1)
 
 - Download the [pre-trained models](https://pan.quark.cn/s/edb9098b95d9)(~1GB) and put them into the 'pretrained_models' fold
 
